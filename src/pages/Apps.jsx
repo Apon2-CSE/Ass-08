@@ -36,7 +36,7 @@ const Apps = () => {
               {`(${displayData.length})`} Apps Found
             </p>
 
-            <div className="relative w-full md:w-auto min-w-[250px] max-w-sm">
+            <div className="relative w-full md:w-auto min-w-[250px] max-w-sm border border-purple-500 rounded-md">
               <input
                 onChange={handelSearch}
                 type="text"
