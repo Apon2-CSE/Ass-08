@@ -17,17 +17,17 @@ const Installation = () => {
   }, [dispatch]);
 
   return (
-    <div className="bg-slate-800 py-30  px-4 font-sans">
+    <div className="bg-gray-50 py-30  px-4 font-sans ">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white">
+          <h1 className="text-4xl sm:text-5xl font-bold text-black">
             Your Installed Apps
           </h1>
           <p className="mt-4 text-lg text-slate-400">
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8">
+        <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 ">
           <div className="flex flex-col sm:flex-row justify-between items-center pb-6 border-b border-gray-200">
             <h2 className="text-xl font-bold text-gray-800 mb-4 sm:mb-0">
               {`(${savedLocal.length})`} Apps Found
