@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-
+import logo from "../../assets/logo.png";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -9,10 +9,16 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-1">
-            <h3 className="text-xl font-bold text-white mb-4">HERO.IO</h3>
-            <p className="text-sm">
-              Your one-stop marketplace for the latest and greatest mobile
-              applications.
+            <div className="flex items-center gap-2">
+              <figure className="w-12">
+                <img src={logo} alt="HERO.IO logo" />
+              </figure>
+              <span className="font-bold text-xl">HERO.IO</span>
+            </div>
+
+            <p className="text-sm mt-2">
+              Browse thousands of trending apps, from productivity to
+              entertainment, all carefully curated in one seamless platform
             </p>
           </div>
 
