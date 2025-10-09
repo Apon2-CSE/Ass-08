@@ -4,7 +4,7 @@ import homePageContent from "../data/homeData";
 const StatsSection = () => {
   return (
     <>
-      <div className="bg-purple-700 text-white py-10 sm:py-16 rounded-md">
+      <div className="bg-gradient-to-r from-[#632ee3]   to-[#9f62f2ff] text-white py-10 sm:py-16 rounded-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12">
             {homePageContent.statsSection.title}

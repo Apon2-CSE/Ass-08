@@ -1,7 +1,6 @@
 import playStore from "../assets/playStore.ico";
 import appStore from "../assets/appStore.png";
 
-
 const homePageContent = {
   heroSection: {
     buttons: [
@@ -18,7 +17,6 @@ const homePageContent = {
         link: "https://www.apple.com/app-store/",
       },
     ],
-    
   },
   statsSection: {
     title: "Trusted By Millions, Built For You",

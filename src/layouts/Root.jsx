@@ -7,8 +7,9 @@ import Footer from "../components/shared/Footer";
 const Root = () => {
   return (
     <>
-      <Navbar />
       <div className="">
+        <Navbar />
+
         <Outlet />
       </div>
       <Footer />

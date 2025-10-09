@@ -14,7 +14,10 @@ const Home = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-800">
             We Build <br />
-            <span className="text-purple-600">Productive</span> Apps
+            <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#632ee3] to-[#9f62f2ff]">
+              Productive
+            </span>{" "}
+            Apps
           </h1>
 
           <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-600">
